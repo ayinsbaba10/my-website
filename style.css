@@ -54,11 +54,18 @@ nav a:hover {
     margin-top: 15px;
 }
 
-input, textarea{
+form {
+    max-width: 450px;
+    margin: 30px auto;
+    background-color: #e3f2fd;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+input[type="text"], input[type="tel"], select, textarea {
     width: 100%;
     padding: 12px;
-    margin-bottom: 15px;
-    border: 1px solid #cbd5e1;
-    border-radius: 6px;
+    margin-top: 5px;
     box-sizing: border-box;
 }
