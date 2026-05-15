@@ -1,7 +1,7 @@
 body {
  background-color: #f4f7f6;
  font-family: sans-serif;
-margin: 40px;
+margin: 0;
 }
 
 header {
@@ -14,7 +14,7 @@ header {
 }
 
 .logo{
-    color: #ffffff;
+    color: #ffb300;
     font-weight: bold;
     font-size: 20px;
 }
@@ -26,7 +26,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #3498db;
+    color: #ffb300;
 }
 
 .hero-box {
@@ -45,8 +45,8 @@ nav a:hover {
 
 .btn {
     display: inline-block;
-    background-color: #3498db;
-    color: white;
+    background-color: #ffb300;
+    color: #000000;
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 4px;
