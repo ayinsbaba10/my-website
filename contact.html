@@ -5,14 +5,14 @@
     <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <head>
+        <header>
             <div class="logo">Fusion Electrical</div>
             <nav>
                 <a href="index.html">home</a>
                 <a href="about.html">about</a>
                 <a href="contact.html">contact</a>
                 </nav>
-                </head>
+        </header>
 
                 <main>
                     <section class="hero-box">
@@ -20,7 +20,8 @@
                         <p>feel free to reach out by filling out this form!</p>
 
                         <!-- this is your interactive web from box-->
-                         <form action="https://formspree.io/f/xbjnugzg" method="POST">
+                         <form action="https://api.web3forms.com/submit" method="POST">
+                            <input type="hidden" name="access_key" value="5d30e0aa-c775-48d3-80e5-8d2510456679">
                             <p>your name:</p>
                             <input type="text" name="name" placeholder="Enter your full name">
 
@@ -28,10 +29,10 @@
                             <input type="tel" name="phone" placeholder="e.g. +234..." required>
 
                             <p>solar system size needed:</p>
-                            <select style="padding: 10px; width: 100%; box-sizing: border-box; margin-bottom: 15px;">
-                                <option>small home (1kva-2kva)</option>
-                                <option>medium home (3kva-5kva)</option>
-                                <option>large commercial (10kva+)</option>
+                            <select name="system_size" style="padding: 10px; width: 100%; box-sizing: border-box; margin-bottom: 15px;">
+                                <option value="small">small home (1kva-2kva)</option>
+                                <option value="medium">medium home (3kva-5kva)</option>
+                                <option value="large">large commercial (10kva+)</option>
                                 </select>
 
                                 <p>your message:</p>
